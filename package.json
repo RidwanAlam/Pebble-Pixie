@@ -1,0 +1,32 @@
+{
+    "author": "ridwan.alam.bd@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pixie",
+    "pebble": {
+        "displayName": "Pixie",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/image_pixie.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_PIXIE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite"
+        ],
+        "uuid": "16ab2855-18a9-42f8-be2c-8e224691092a",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
