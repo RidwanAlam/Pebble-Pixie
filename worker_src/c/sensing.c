@@ -65,8 +65,10 @@ void accel_data_handler(AccelData * data, uint32_t num_samples) {
 
       if (k==TOTAL_SAMPLE_LOG + 1){
         ////APP_LOG(APP_LOG_LEVEL_INFO, "k = %u, data size = %u", k, sizeof(data_pointer));        
-        log_data(k*2);
-        //print_screen();
+        if (battery_flag){
+          log_data(k*2);
+          print_screen();
+        }
         k = 0;
       }
     }

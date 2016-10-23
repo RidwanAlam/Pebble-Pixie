@@ -16,7 +16,7 @@ bool connection_flag;
 bool charging_flag;
 bool plugged_flag;
 bool start_flag;
-bool battery_flag;
+
 
 void check_logging(void){
   // if CONNECTED and NOT PLUGGED IN, start DATA_LOGGING service

@@ -8,6 +8,7 @@
 
 
 BatteryChargeState battery_charge;
+bool battery_flag;
 
 void battery_handler(BatteryChargeState battery_charge_1) {
   battery_charge = battery_charge_1;

@@ -8,7 +8,7 @@ extern bool connection_flag;
 extern bool start_flag;
 extern bool charging_flag;
 extern bool plugged_flag;
-extern bool battery_flag;
+
 
 extern void check_logging(void);
 extern void log_data(uint8_t log_num);
